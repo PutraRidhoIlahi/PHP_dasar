@@ -13,6 +13,13 @@ for ($i = 1; $i <= 20; $i++)
 {
   echo "I Love PHP $i \n";
 }
+// looping kedua
+
+for ($i = 20; $i >= 2; $i-=2)
+{
+    echo "$i I LOVE PHP \n";
+}
+
 ?>
 
 </body>
