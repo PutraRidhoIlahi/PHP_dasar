@@ -78,6 +78,17 @@ foreach ($items as $item) {
 }
 ?>
 
+<!-- soal membuat asterix -->
+<h3>asterix</h3>
+<?php
+for ($i = 1; $i <= 5; $i++) {
+    for ($k = 1; $k <= $i; $k++) {
+        echo "* ";
+    }
+    echo "\n";
+}
+?>
+
 
 </body>
 </html>
