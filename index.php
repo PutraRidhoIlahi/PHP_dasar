@@ -36,6 +36,49 @@ foreach ($rest as $hasil) {
 }
 ?>
 
+<h3>loop associative array</h3>
+<?php
+$items = array(
+    array(
+        "id" => 001,
+        "name" => "Keyboard Logistik",
+        "price" => 60000,
+        "description" => "Keyboard Yang Mantab Untuk Kantoran",
+        "source" => "logitek.jpeg"
+    ),
+    array(
+        "id" => 002,
+        "name" => "Keyboard MSI",
+        "price" => 3000000,
+        "description" => "Keyboard Gaming MSI mekanik",
+        "source" => "msi.jpeg"
+    ),
+    array(
+        "id" => 003,
+        "name" => "Mouse Genius",
+        "price" => 50000,
+        "description" => "Mouse Genius Biar lebih pintar",
+        "source" => "genius.jpeg"
+    ),  
+    array(
+      "id" => 004,
+      "name" => "Mouse jerry",
+      "price" => 30000,
+      "description" => "Mouse yang disukai kucing",
+      "source" => "jerry.jpeg"
+  )
+);
+foreach ($items as $item) {
+    echo "ID: " . $item["id"] . "";
+    echo "Name: " . $item["name"] . "";
+    echo "Price: $" . $item["price"] . "";
+    echo "Description: " . $item["description"] . "";
+    echo "Source: " . $item["source"] . "";
+    echo "\n";
+}
+?>
+
+
 </body>
 </html>
 
